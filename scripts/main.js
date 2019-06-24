@@ -30,7 +30,7 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
+    myHeading.textContent = 'Mozilla is cool, ' + myName + '!';
   }
   
   /* run the intitialisation code to check whether 'name' data exists
@@ -39,7 +39,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName + ' !';
+    myHeading.textContent = 'Mozilla is cool, ' + storedName + '!';
   }
 
   // an event handler on button to allow user to change the name
