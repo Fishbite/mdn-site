@@ -3,12 +3,12 @@ var myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 */
 
-/* create an alert box when webpage is clicked
+/* create an alert box when webpage is clicked */
 
 document.querySelector('html').onclick = function() {
-    alert('Ouch! Stop poking me!');
+    alert('Ouch! Stop clicking me! Click the image instead :)');
 }
-*/
+
 
 // change the top image when clicked
 var myImage = document.querySelector('img');
